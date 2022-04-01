@@ -23,12 +23,13 @@ jobs:
         with:
           mode: minimum
           count: 1
-          labels: "release-note/ignore-for-release, release-note/new-feature, release-note/enhancement, release-note/community, release-note/breaking-change, release-note/docs, release-note/infra, release-note/deprecation"
+          labels: "release-note/ignore-for-release, release-note/new-feature, release-note/update, release-note/enhancement, release-note/community, release-note/breaking-change, release-note/docs, release-note/infra, release-note/deprecation"
       - uses: mheap/github-action-required-labels@v1
         with:
           mode: maximum
           count: 2
-          labels: "release-note/ignore-for-release, release-note/new-feature, release-note/enhancement, release-note/community, release-note/breaking-change, release-note/docs, release-note/infra, release-note/deprecation"es: mheap/github-action-required-labels@v1
+          labels: "release-note/ignore-for-release, release-note/new-feature, release-note/update ,release-note/enhancement, release-note/community, release-note/breaking-change, release-note/docs, release-note/infra, release-note/deprecation"
+      - uses: mheap/github-action-required-labels@v1
         with:
           mode: maximum
           count: 1
