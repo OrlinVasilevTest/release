@@ -15,7 +15,7 @@ changelog:
         - release-note/enhancement
     - title: Component updates ⬆️
       labels:
-        - update
+        - release-note/update
     - title: Docs update 🗄️
       labels:
         - release-note/docs
