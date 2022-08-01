@@ -28,7 +28,7 @@ changelog:
         - release-note/breaking-change
 
     - title: Deprecations ❌
-      check for more here
+      text: check for more here
       labels:
         - release-note/deprecation
 
