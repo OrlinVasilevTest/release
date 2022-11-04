@@ -18,15 +18,15 @@ reviewers:
     community:
       - OrlinVasilevTest
 
-files:
-  'site/**':
-    - tech-writer
-  '**/*.md':
-    - community
-  # Technical design requests are ".md" files but should
-  # be reviewed by maintainers
-  '/design/**':
-    - maintainers
+#files:
+#  'site/**':
+#    - tech-writer
+#  '**/*.md':
+#    - community
+#  # Technical design requests are ".md" files but should
+#  # be reviewed by maintainers
+#  '/design/**':
+#    - maintainers
 
 options:
   ignore_draft: true
