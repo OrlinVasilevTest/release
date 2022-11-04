@@ -2,6 +2,8 @@
 # This assigns a PR to its author
 addAssignees: author
 
+addReviewers: true
+
 reviewers:
   # The default reviewers
   defaults:
@@ -33,4 +35,4 @@ options:
     - wip
     - DO NOT MERGE
   enable_group_assignment: true
-  number_of_reviewers: 2%
+  number_of_reviewers: 2
