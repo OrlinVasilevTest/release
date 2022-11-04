@@ -4,21 +4,23 @@ addAssignees: author
 
 addReviewers: true
 
-useReviewGroups: true
+# useReviewGroups: true
 
-reviewGroups:
+reviews:
+  - OrlinVasilev
+  
   # The default reviewers
-  defaults:
-    - maintainers
+#  defaults:
+#    - maintainers
 
-  groups:
-    maintainers:
-      - OrlinVasilev
+#  groups:
+#    maintainers:
+#      - OrlinVasilev
 #      - OrlinVasilev1
 #      - OrlinVasilev2
 
-    community:
-      - OrlinVasilev
+#    community:
+#      - OrlinVasilev
 
 #files:
 #  'site/**':
