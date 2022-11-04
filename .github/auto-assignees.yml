@@ -6,7 +6,7 @@ addReviewers: true
 
 # useReviewGroups: true
 
-reviews:
+reviewers:
   - OrlinVasilev
   
   # The default reviewers
