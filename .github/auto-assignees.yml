@@ -9,7 +9,7 @@ useReviewGroups: true
 #reviewers:
 #  - OrlinVasilev
   
-useReviewGroups:
+reviewGroups:
   maintainers:
     - OrlinVasilev
     - OrlinVasilev1
