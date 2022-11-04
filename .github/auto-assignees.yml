@@ -4,7 +4,9 @@ addAssignees: author
 
 addReviewers: true
 
-reviewers:
+useReviewGroups: true
+
+reviewGroups:
   # The default reviewers
   defaults:
     - maintainers
