@@ -12,11 +12,11 @@ reviewers:
   groups:
     maintainers:
       - OrlinVasilev
-      - OrlinVasilev1
-      - OrlinVasilev2
+#      - OrlinVasilev1
+#      - OrlinVasilev2
 
     community:
-      - OrlinVasilevTest
+      - OrlinVasilev
 
 #files:
 #  'site/**':
