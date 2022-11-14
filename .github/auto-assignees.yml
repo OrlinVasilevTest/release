@@ -6,9 +6,8 @@ addReviewers: false
 
 
 reviewers:
-  - OrlinVasilev
   - OrlinVasilevTest
- 
+
 
 #files:
 #  'site/**':
