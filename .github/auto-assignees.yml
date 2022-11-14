@@ -1,21 +1,14 @@
 ---
 # This assigns a PR to its author
-addAssignees: author
+addAssignees: true
 
-addReviewers: true
+addReviewers: false
 
-useReviewGroups: true
 
-#reviewers:
-#  - OrlinVasilev
-  
-reviewGroups:
-  maintainers:
-    - OrlinVasilev
-    - OrlinVasilev1
-    - OrlinVasilev2
-  community:
-    - OrlinVasilev
+reviewers:
+  - OrlinVasilev
+  - OrlinVasilevTest
+ 
 
 #files:
 #  'site/**':
@@ -34,4 +27,4 @@ options:
     - wip
     - DO NOT MERGE
   enable_group_assignment: true
-  number_of_reviewers: 2
+  number_of_reviewers: 1
